@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: jx7789/nginx:0611fc95dc8b746cd3dc5bde119ed3f33ac0fe21
+          image: jx7789/nginx:a2aa64c84b4541c400aed36000cda9cb81502dc0
           imagePullPolicy: Always
           ports:
             - containerPort: 80
