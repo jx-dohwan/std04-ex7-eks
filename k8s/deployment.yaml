@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: jx7789/nginx:1.31.3-alpine # 25047940866.dkr.ecr.ap-northeast-2.amazonaws.com/std04/
+          image: jx7789/nginx:0611fc95dc8b746cd3dc5bde119ed3f33ac0fe21
           imagePullPolicy: Always
           ports:
             - containerPort: 80
